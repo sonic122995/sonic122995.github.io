@@ -42,7 +42,8 @@ body
 {
 	list-style-type: none;
 	text-align: center;
-	font-size: 1.2em;
+	//font-size: 1.2em;
+	font-size: 2vmin;
 	font-family: quadon;
 	
 	padding: 0;
@@ -108,7 +109,7 @@ body
 {
 	z-index: 1;
 	position: absolute;
-	height: 66%;	/*set relative picture size*/
+	height: 63%;	/*set relative picture size*/
 	
 	top: 50%;
 	left: 50%;
@@ -133,7 +134,7 @@ body
 	
 	margin: auto;
 	
-	top: 12%;
+	top: 10%;	/*text vertical location*/
 	left: 10%;
 }
 
