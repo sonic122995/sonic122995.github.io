@@ -150,3 +150,33 @@ body
 	margin: 0;
 }
 
+
+.site_subtitle
+{
+	z-index: 1;
+	position: absolute;
+	height: 10%;
+	width: 80%;
+	
+	margin: auto;
+	
+	top: 83%;	/*text vertical location*/
+	left: 10%;
+	
+}
+
+
+
+.site_subtitle p
+{
+	
+	color: #F0F0F0;
+	font-family: quadon;
+	text-align: center;
+	font-size: 5vmin;
+	
+	
+	margin: 0;
+}
+
+
