@@ -1,0 +1,80 @@
+body .navigation {
+	text-align: center;
+	padding: 1%
+}
+
+body .hero_name {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+body .hero_biography {
+	margin-left:30%;
+	margin-right:30%;
+}
+
+body .footer {
+	position: fixed;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -200%);
+	text-align: center;
+	
+	color: gray;
+	font-size: .7em;
+}
+
+body h1{
+	font-family: Arial;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 500%;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	
+	
+}
+
+body h3 {
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 150%;
+	opacity: 0.5;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	letter-spacing: .2em;
+}
+
+/* unvisited link */
+li a:link {
+    color: gray;
+	text-decoration: none;
+}
+
+/* visited link */
+li a:visited {
+    color: gray;
+	text-decoration: none;
+}
+
+/* mouse over link */
+li a:hover {
+    color: white;
+	text-decoration: none;
+}
+
+/* selected link */
+li a:active {
+    color: white;
+	text-decoration: none;
+}
+
+.list-inline>li {
+    margin-right: 1%;
+	margin-left: 1%;
+}
